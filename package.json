@@ -1,0 +1,19 @@
+{
+	"name": "@jsxtools/git",
+	"description": "A zero-dependency, isomorphic Git API, tree-shaken from Isomorphic Git",
+	"version": "0.1.0",
+	"type": "module",
+	"license": "MIT",
+	"exports": {
+		".": {
+			"import": "./lib/git.js",
+			"types": "./lib/git.d.ts"
+		}
+	},
+	"files": [
+		"lib"
+	],
+	"scripts": {
+		"release": "npm publish --access public"
+	}
+}

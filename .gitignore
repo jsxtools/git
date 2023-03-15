@@ -1,0 +1,18 @@
+# wip
+build/
+
+# generated
+node_modules/
+lib/
+
+# locks
+*-lock.*
+
+# logs
+*.log*
+
+# environment variables
+*.env*
+
+# macOS-specific files
+.DS_Store
